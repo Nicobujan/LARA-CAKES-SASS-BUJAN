@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Arvo:ital@1&family=Mouse+Memoirs&family=Pacifico&family=Shrikhand&family=Silkscreen&display=swap");
+header {
+  background-color: #F6E3DF;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header #logo {
+  font-family: "Shrikhand", cursive;
+  color: #D4908E;
+  -webkit-animation: slide-in-left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+          animation: slide-in-left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+}
+header .pestañas a {
+  color: #D4908E;
+  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+          animation: slide-in-left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.hero {
+  background-color: #D4908E;
+  height: 90vh;
+}
+.hero #bienvenidos {
+  background-color: #F6E3DF;
+  color: #D4908E;
+  font-family: "Arvo", serif;
+  -webkit-animation: color-change-2x 10s linear infinite alternate both;
+          animation: color-change-2x 10s linear infinite alternate both;
+}
+
+.miranos {
+  background-color: #F6E3DF;
+}
+.miranos #miralo {
+  color: #D4908E;
+  font-family: "Arvo", serif;
+}
+
+#muestra1 {
+  height: 250px;
+}
+
+#body-index {
+  background-image: radial-gradient(circle, #F6E3DF, #ebb2af, #8f6968);
+}
+
+#footer-quienes {
+  background-color: #F6E3DF;
+  padding: 20px;
+  margin-top: 113px;
+}
+#footer-quienes #seguinos {
+  font-family: "Shrikhand", cursive;
+  margin-top: 8px;
+  color: #D4908E;
+}
+#footer-quienes .fa-twitter {
+  color: #D4908E;
+}
+#footer-quienes .fa-facebook {
+  color: #D4908E;
+}
+#footer-quienes .fa-instagram {
+  color: #D4908E;
+}
+#footer-quienes .fa-whatsapp {
+  color: #D4908E;
+}
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slide-in-top {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=estilos.css.map */

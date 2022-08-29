@@ -1,0 +1,31 @@
+.hero {
+   background-color: $texthfcolor;
+    height: 90vh;
+
+    #bienvenidos {
+        background-color: $hfcolor;
+        color: $texthfcolor;
+        font-family: 'Arvo', serif;
+        animation: color-change-2x 10s linear infinite alternate both
+    }
+
+}
+
+.miranos {
+    background-color: $hfcolor;
+
+    #miralo {
+        color: $texthfcolor;
+        font-family: 'Arvo', serif;
+    
+    }
+
+}
+
+#muestra1 {
+    height: 250px;
+}
+#body-index {
+    background-image: radial-gradient(circle, #F6E3DF, #ebb2af, #8f6968);
+    ;
+}
