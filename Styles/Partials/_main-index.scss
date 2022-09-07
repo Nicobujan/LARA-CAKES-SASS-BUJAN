@@ -22,10 +22,30 @@
 
 }
 
-#muestra1 {
-    height: 250px;
-}
+
 #body-index {
     background-image: radial-gradient(circle, #F6E3DF, #ebb2af, #8f6968);
     ;
+}
+
+#muestra1 {
+    height: 250px;
+    
+}
+
+#muestra2 {
+   @extend #muestra1;
+}
+
+#muestra3 {
+    @extend #muestra1;
+}
+#muestra4 {
+    @extend #muestra1;
+}
+#muestra5 {
+    @extend #muestra1;
+}
+#muestra6 {
+    @extend #muestra1;
 }

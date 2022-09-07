@@ -1,4 +1,8 @@
-#footer-quienes {
+#footer-como-comprar{
+    margin-top: 123px;
+}
+
+footer{
     background-color: $hfcolor;
     padding: 20px;
     margin-top: 113px;
@@ -9,19 +13,62 @@
         color: $texthfcolor;
     }
 
-    .fa-twitter {
-        color: $texthfcolor;
-    }
+    // .fa-twitter {
+    //     color: $texthfcolor;
+    // }
 
-    .fa-facebook {
-        color: $texthfcolor;
-    }
+    // .fa-facebook {
+    //     color: $texthfcolor;
+    // }
 
-    .fa-instagram {
-        color: $texthfcolor;
-    }
-    .fa-whatsapp {
-        color: $texthfcolor;
-    }
+    // .fa-instagram {
+    //     color: $texthfcolor;
+    // }
+    // .fa-whatsapp {
+    //     color: $texthfcolor;
+    // }
+}
 
+
+
+
+
+
+$redes: (
+    twitter: blue,
+    facebook: yellow,
+    instagram: red,
+    whatsapp: green
+);
+
+@each $redsocial, $color in $redes {
+    .fa-#{$redsocial}{
+        background-color: $color;
+    }
+}
+
+@mixin size ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+    
+}
+
+
+.fa-twitter {
+    color: $texthfcolor;
+    @include size(75px,35px )
+}
+
+.fa-facebook {
+    color: $texthfcolor;
+    @include size(75px,35px )
+}
+
+.fa-instagram {
+    color: $texthfcolor;
+    @include size(75px,35px )
+}
+.fa-whatsapp {
+    color: $texthfcolor;
+    @include size(75px,35px )
 }

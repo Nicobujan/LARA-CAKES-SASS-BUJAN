@@ -39,35 +39,120 @@ header .pestañas a {
   font-family: "Arvo", serif;
 }
 
-#muestra1 {
-  height: 250px;
-}
-
 #body-index {
   background-image: radial-gradient(circle, #F6E3DF, #ebb2af, #8f6968);
 }
 
-#footer-quienes {
+#muestra1, #muestra6, #muestra5, #muestra4, #muestra3, #muestra2 {
+  height: 250px;
+}
+
+#body-contacto {
+  background-color: wheat;
+}
+
+#main-contacto h1 {
+  font-family: "Shrikhand", cursive;
+  color: #D4908E;
+}
+#main-contacto #texto-contacto p {
+  background-color: #D4908E;
+}
+
+.nombre label {
+  font-family: "Arvo", serif;
+}
+
+.mail label {
+  font-family: "Arvo", serif;
+}
+
+legend {
+  font-family: "Arvo", serif;
+}
+
+#body-quienes {
+  background-color: #D4908E;
+}
+
+section h1 {
+  font-family: "Arvo", serif;
+}
+section #parrafo-quienes {
+  border: 4px solid black;
+  border-radius: 20px;
+  background-color: aqua;
+  padding: 10px;
+  background-color: beige;
+  font-weight: bold;
+}
+
+#body-como-comprar {
+  background-color: bisque;
+}
+
+#body-productos {
+  background-image: radial-gradient(bisque, wheat, pink);
+}
+
+h3 {
+  background-color: #D4908E;
+  font-family: "Arvo", serif;
+}
+
+#footer-como-comprar {
+  margin-top: 123px;
+}
+
+footer {
   background-color: #F6E3DF;
   padding: 20px;
   margin-top: 113px;
 }
-#footer-quienes #seguinos {
+footer #seguinos {
   font-family: "Shrikhand", cursive;
   margin-top: 8px;
   color: #D4908E;
 }
-#footer-quienes .fa-twitter {
-  color: #D4908E;
+
+.fa-twitter {
+  background-color: blue;
 }
-#footer-quienes .fa-facebook {
-  color: #D4908E;
+
+.fa-facebook {
+  background-color: yellow;
 }
-#footer-quienes .fa-instagram {
-  color: #D4908E;
+
+.fa-instagram {
+  background-color: red;
 }
-#footer-quienes .fa-whatsapp {
+
+.fa-whatsapp {
+  background-color: green;
+}
+
+.fa-twitter {
   color: #D4908E;
+  width: 75px;
+  height: 35px;
+}
+
+.fa-facebook {
+  color: #D4908E;
+  width: 75px;
+  height: 35px;
+}
+
+.fa-instagram {
+  color: #D4908E;
+  width: 75px;
+  height: 35px;
+}
+
+.fa-whatsapp {
+  color: #D4908E;
+  width: 75px;
+  height: 35px;
 }
 
 @-webkit-keyframes slide-in-left {
